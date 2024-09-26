@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #444444;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #18031d;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+
+nav ul li a {
+    color: rgb(250, 248, 248);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #b6d11b;
+    font-size: 18px;
+}
+
+section:not(#home) {
+padding: 100px 20px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+  
+#home {
+/* background-color: #4A90E02; */
+background-image: url(https://media.endclothing.com/end-features/f_auto,q_auto:eco,w_1520/prodfeatures/74fdb8b4-71fa-4ace-bef0-9d10b30a3ba6_SU21_CBM_NOCTA_ESSENTIAL_GLBL_TG_0055_RVB.jpg?auto=compress,format);
+background-repeat: no-repeat;
+background-size: cover;
+color: rgba(255, 255, 255, 0.486);
+height: 100vh;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size:50px;
+}
+
+.content {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.content img {
+width: 600px;
+height: 500px;
+object-fit: cover;
+margin-right: 20px;
+border-radius: 8px;
+}
+
+.content .text h2 {
+font-size: 2em;
+margin-bottom: 20px;
+color: rgb(255, 251, 251);
+}
+.content .text p {
+font-size: 1.1em;
+color: rgb(255, 255, 255);
+}
+ 
+#colecao {
+background-color: #000000;
+}
+
+#contact {
+   background-color: #000000; 
+}
+
+.cta-button {
+margin-top: 30px;
+padding: 20px;
+border-radius: 20px;
+background-color: rgb(0, 0, 0);
+}
+
+.cta-button{
+margin-top: 30px;
+background-color: #fefcff;
+color: #000000;
+padding: 25px 30px;
+font-size: 18px;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+box-shadow: 0px 4px rgb(51, 50, 50);
+transform: background-color 1s ease, transform 1s ease;
+}
+
+.cta-button:hover{
+    background-color: rgb(88, 160, 20);
+
+}
+
+footer {
+    height: 200px
+    background-color rgb(29, 28, 28)
+
+}
